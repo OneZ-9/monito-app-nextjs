@@ -8,7 +8,7 @@ function Banner({
 }) {
   return (
     <div
-      className={`relative h-[378px] w-full overflow-hidden rounded-[20px] ${backgroundColor}`}
+      className={`relative w-full overflow-hidden rounded-[20px] xl:h-[378px] ${backgroundColor}`}
     >
       <div
         style={{
@@ -17,12 +17,12 @@ function Banner({
       >
         {/* First Rotated Element */}
         <div
-          className={`absolute left-[604px] top-[-224px] h-[635px] w-[782px] rotate-[25deg] rounded-[99px] ${square1Color}`}
+          className={`absolute left-[-290px] top-[-100px] h-[635px] w-[782px] rotate-[14deg] rounded-[75px] lg:rounded-[99px] xl:left-[604px] xl:top-[-224px] xl:rotate-[25deg] ${square1Color}`}
         />
 
         {/* Second Rotated Element (with optional gradient and opacity) */}
         <div
-          className={`absolute left-[-192px] top-[168px] h-[788px] w-[788px] rotate-[28deg] rounded-[99px] ${square2Color}`}
+          className={`absolute left-[-192px] top-[700px] h-[788px] w-[788px] rotate-[28deg] rounded-[99px] sm:top-[700px] xl:top-[168px] ${square2Color}`}
           style={{
             opacity: square2Opacity,
           }}
