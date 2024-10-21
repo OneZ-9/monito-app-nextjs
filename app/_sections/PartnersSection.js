@@ -34,44 +34,58 @@ function PartnersSection() {
         <Image
           src={Sheba}
           alt="Sheba logo"
+          height={112}
+          width={151}
           quality={100}
-          className="h-[11.2rem] w-[15.1rem] px-[1.6rem]"
+          className="px-[1.6rem]"
         />
         <Image
           src={Whiskas}
           alt="Whiskas logo"
+          height={112}
+          width={151}
           quality={100}
-          className="h-[11.2rem] w-[15.1rem] p-[1rem]"
+          className="p-[1rem]"
         />
         <Image
           src={Bakers}
           alt="Bakers logo"
           quality={100}
-          className="h-[11.2rem] w-[15.1rem] p-[1rem]"
+          height={112}
+          width={151}
+          className="p-[1rem]"
         />
         <Image
           src={Felix}
           alt="Felix logo"
           quality={100}
-          className="h-[11.2rem] w-[15.1rem] p-[1rem]"
+          height={112}
+          width={151}
+          className="p-[1rem]"
         />
         <Image
           src={GoodBoy}
           alt="GoodBoy logo"
           quality={100}
-          className="h-[11.2rem] w-[15.1rem] p-[1rem]"
+          height={112}
+          width={151}
+          className="p-[1rem]"
         />
         <Image
           src={Butchers}
           alt="Butchers logo"
           quality={100}
-          className="h-[11.2rem] w-[15.1rem] p-[1rem]"
+          height={112}
+          width={151}
+          className="p-[1rem]"
         />
         <Image
           src={Pedigree}
           alt="Pedigree logo"
           quality={100}
-          className="h-[11.2rem] w-[15.1rem] p-[1rem]"
+          height={112}
+          width={151}
+          className="p-[1rem]"
         />
       </div>
     </section>
