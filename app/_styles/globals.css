@@ -71,3 +71,7 @@ html {
 body {
   @apply text-base;
 }
+
+section {
+  @apply mb-[100px];
+}
