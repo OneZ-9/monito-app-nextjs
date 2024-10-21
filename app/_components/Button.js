@@ -2,6 +2,7 @@
 
 function Button({
   children,
+  className,
   onClick,
   type = "default",
   size = "medium",
@@ -10,11 +11,14 @@ function Button({
   iconRight = false,
 }) {
   const baseStyle =
-    "rounded-[57px] cursor-pointer font-medium transition-all duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-primary-40";
+    "cursor-pointer font-medium transition-all duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-primary-40";
 
   const typeStyles = {
-    default: "bg-primary text-white hover:bg-primary-40 active:bg-primary-80",
-    outline: "border-[1.5px] text-primary border-primary ",
+    default:
+      "bg-primary rounded-[5.7rem] text-neutral-0 hover:bg-primary-40 active:bg-primary-80",
+    outline: "border-[1.5px] rounded-[5.7rem] text-primary border-primary ",
+    subscribe:
+      "bg-primary text-neutral-0 rounded-[0.8rem] hover:bg-primary-40 active:bg-primary-80 w-[20.3rem]",
   };
 
   const iconOnly = children ? false : true;
@@ -31,7 +35,9 @@ function Button({
     <button
       className={`flex gap-2 items-center justify-center ${
         iconRight && "flex-row-reverse"
-      } ${baseStyle} ${typeStyles[type]} ${sizeStyles[size]} ${disabledStyle}`}
+      }  ${baseStyle} ${typeStyles[type]} ${
+        sizeStyles[size]
+      } ${disabledStyle} ${className}`}
       onClick={onClick}
       disabled={disabled}
     >
