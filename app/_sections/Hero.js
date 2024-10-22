@@ -20,7 +20,7 @@ function Hero() {
       <div className="absolute left-[45%] top-[130px] h-[15px] w-[15px] rotate-[337deg] rounded-[5px] bg-[#F7DBA7] sm:left-[52%] sm:h-[20px] sm:w-[20px] sm:rounded-[7px] lg:left-[732px] lg:top-[204px] lg:h-[27px] lg:w-[27px] lg:rounded-[9px]" />
       <div className="absolute left-[45%] top-[140px] h-[10px] w-[10px] rotate-[317deg] rounded-[6px] bg-[#002A48] sm:left-[52%] sm:h-[15px] sm:w-[15px] sm:rounded-[4px] lg:left-[731px] lg:top-[213px] lg:h-[21px] lg:w-[21px] lg:rounded-[6px]" />
 
-      <div className="container z-40 self-center xl:pr-0">
+      <div className="container z-40 self-center py-10 xl:pr-0">
         <h1 className="mb-[2.4rem] flex flex-col text-primary-80">
           <strong className="font-extrabold xl:mb-[0.4rem] xl:text-[6rem] xl:leading-[6.8rem]">
             One More Friend
