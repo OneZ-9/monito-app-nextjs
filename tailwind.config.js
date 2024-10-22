@@ -29,6 +29,7 @@ module.exports = {
           40: "#FCEED5", // Secondary color-40
           60: "#F1D092", // Secondary color-60
           80: "#EEC77E", // Secondary color-80
+          100: "#FFB775", // Secondary color-100
         },
         neutral: {
           0: "#FDFDFD", // Neutral color-00
